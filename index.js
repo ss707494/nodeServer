@@ -4,7 +4,7 @@ const path = require('path');
 const proxy = require('express-http-proxy');
 const winston = require('winston'),
       expressWinston = require('express-winston');
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 8040;
 const app = express();
 
 const appPath = 'webapp';
